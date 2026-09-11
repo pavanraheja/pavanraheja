@@ -2,7 +2,7 @@
 
 **AI Product Manager — I ship agents that act, and the guardrails that make that safe.**
 
-Dubai · [pavan.blog](https://pavan.blog) · [LinkedIn](https://linkedin.com/in/pavanraheja)
+Dubai · **[Work & contact → pavan.blog/work](https://www.pavan.blog/work?utm_source=github&utm_medium=readme&utm_campaign=pavanraheja)** · [LinkedIn](https://linkedin.com/in/pavanraheja)
 
 ---
 
