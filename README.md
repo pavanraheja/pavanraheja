@@ -24,7 +24,7 @@ I run a fleet of production agents across live venues, and the discipline matter
 | **[alphagrid-orchestrator](https://github.com/pavanraheja/alphagrid-orchestrator)** | The production pattern for safely deploying autonomous systems that act on real resources — risk guardian, kill switch, staged-promotion gates. Start here. |
 | **[autonomous-execution-agents](https://github.com/pavanraheja/autonomous-execution-agents)** | The multi-strategy execution fleet the pattern above governs. |
 | **[content-research-agent](https://github.com/pavanraheja/content-research-agent)** | Multi-step Claude agents running content research end to end. Said no to RAG — a structured prompt was enough. |
-| **[dubai-re-intelligence](https://github.com/pavanraheja/dubai-re-intelligence)** | Flask + Pandas pipeline turning raw Dubai Land Department data into decision intelligence. |
+| **[dubai-re-intelligence](https://github.com/pavanraheja/dubai-re-intelligence)** | Live Q&A over real 2026 Dubai Land Department sales — answers from the data, or refuses and says why. 85% on an independent eval at first contact. [Live demo](https://dubai-re-intelligence-seven.vercel.app) |
 | **[pavan-blog](https://github.com/pavanraheja/pavan-blog)** | My site, including a streaming digital clone built on the Claude API. |
 
 Live systems and production adapters stay private; the reusable patterns are public.
@@ -32,7 +32,7 @@ Live systems and production adapters stay private; the reusable patterns are pub
 ### Building
 
 - **[Glasshouse](https://glasshousedesk.com)** — a transparent research desk. The product is verifiability: strategies are killed by their own falsification batteries, and the copy-service model is non-custodial.
-- **[Insight Bay](https://insightbayai.com)** — AI automation for UAE SMEs. First paying customer live.
+- **[Insight Bay](https://insightbayai.com)** — AI automation for UAE SMEs. First paid deployment ran live in July 2026.
 
 ### Writing
 
