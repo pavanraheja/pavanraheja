@@ -25,7 +25,6 @@ I've built and run a fleet of agents across five live venues, and the discipline
 | **[alphagrid-orchestrator](https://github.com/pavanraheja/alphagrid-orchestrator)** | The production pattern for safely deploying autonomous systems that act on real resources — risk guardian, kill switch, staged-promotion gates. Start here. |
 | **[content-research-agent](https://github.com/pavanraheja/content-research-agent)** | Multi-step Claude agents running content research end to end. Said no to RAG — a structured prompt was enough. |
 | **[dubai-re-intelligence](https://github.com/pavanraheja/dubai-re-intelligence)** | Live Q&A over real 2026 Dubai Land Department sales — answers from the data, or refuses and says why. 85% on an independent eval at first contact. [Live demo](https://dubai-re-intelligence-seven.vercel.app) |
-| **[pavan-blog](https://github.com/pavanraheja/pavan-blog)** | My site, including a streaming digital clone built on the Claude API. |
 
 Live systems and production adapters stay private; the reusable patterns are public.
 
