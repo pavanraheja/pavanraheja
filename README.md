@@ -8,11 +8,12 @@ Dubai · **[Work & contact → pavan.blog/work](https://www.pavan.blog/work?utm_
 
 Most AI demos answer. The hard part is letting a system *act* — on real money, real customers, real infrastructure — without a human checking every call. That's the problem I work on.
 
-I run a fleet of production agents across live venues, and the discipline matters more than any single model:
+I've built and run a fleet of agents across five live venues, and the discipline matters more than any single model:
 
 - **60+ candidate strategies evaluated → 4 promoted.** Over 90% were killed by their own test batteries before touching capital.
 - **Every candidate declares its promotion criteria *before* seeing results,** then runs shadow → paper → live. No overrides; promotions are gate-driven and audit-logged.
 - **Gate on irreversible, not uncertain.** Confidence is the wrong axis — a low-confidence reversible action is safer than a high-confidence irreversible one.
+- **The gates apply to me too.** Live capital stays off until a strategy clears its bar on fresh data; when the evidence isn't there, the system stays paused.
 - Author of **RFC #7218**, on preventing catastrophic actions in long-running autonomous agents.
 
 ---
@@ -22,7 +23,6 @@ I run a fleet of production agents across live venues, and the discipline matter
 | Repo | What it is |
 |---|---|
 | **[alphagrid-orchestrator](https://github.com/pavanraheja/alphagrid-orchestrator)** | The production pattern for safely deploying autonomous systems that act on real resources — risk guardian, kill switch, staged-promotion gates. Start here. |
-| **[autonomous-execution-agents](https://github.com/pavanraheja/autonomous-execution-agents)** | The multi-strategy execution fleet the pattern above governs. |
 | **[content-research-agent](https://github.com/pavanraheja/content-research-agent)** | Multi-step Claude agents running content research end to end. Said no to RAG — a structured prompt was enough. |
 | **[dubai-re-intelligence](https://github.com/pavanraheja/dubai-re-intelligence)** | Live Q&A over real 2026 Dubai Land Department sales — answers from the data, or refuses and says why. 85% on an independent eval at first contact. [Live demo](https://dubai-re-intelligence-seven.vercel.app) |
 | **[pavan-blog](https://github.com/pavanraheja/pavan-blog)** | My site, including a streaming digital clone built on the Claude API. |
@@ -36,7 +36,12 @@ Live systems and production adapters stay private; the reusable patterns are pub
 
 ### Writing
 
-I write at **[pavan.blog](https://pavan.blog)** about what actually breaks in production AI — including [a case study on shipping agents that act without a human](https://pavan.blog/articles/glasshouse-case-study), and [what a year of running production agents taught me about reliability](https://pavan.blog/articles/production-ai-agents-reliability).
+I write at **[pavan.blog](https://pavan.blog)** about what actually breaks in production AI:
+
+- [Dubai Intelligence: an AI that answers from the data or refuses](https://pavan.blog/articles/dubai-intelligence-case-study) — evidence contract, honest evals, real-user bugs, a human-gated learning loop
+- [Evals for agents that act](https://pavan.blog/articles/evals-for-agents-that-act)
+- [Shipping agents that act without a human](https://pavan.blog/articles/glasshouse-case-study)
+- [What a year of running production agents taught me about reliability](https://pavan.blog/articles/production-ai-agents-reliability)
 
 ---
 
